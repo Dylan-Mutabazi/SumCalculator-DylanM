@@ -1,0 +1,6 @@
+numb = int(input("Enter a positive interger: "))
+
+sum = 0
+for counter in range(numb + 1):
+  sum += counter
+print("the sum of all interger from 0 to", numb, "is", sum)
